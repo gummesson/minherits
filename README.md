@@ -17,7 +17,9 @@ npm install minherits --save
 ~~~ js
 var inherits = require('minherits');
 
-function Foo() { /* ... */ }
+function Foo() {
+  // ...
+}
 
 function Bar() {
   Foo.call(this);
