@@ -1,6 +1,6 @@
 # Minherits
 
-[![Build Status](http://img.shields.io/travis/gummesson/minherits.svg?style=flat)](https://travis-ci.org/gummesson/minherits)
+[![NPM version](http://img.shields.io/npm/v/minherits.svg?style=flat)](https://npmjs.org/package/minherits) [![Build Status](http://img.shields.io/travis/gummesson/minherits.svg?style=flat)](https://travis-ci.org/gummesson/minherits)
 
 A tiny, modern, bare bones inheritance utility for Node.js and the browser. It works with [Browserify](http://browserify.org/) and supports Internet Explorer 9+.
 
