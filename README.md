@@ -1,8 +1,12 @@
 # Minherits
 
-[![NPM version](http://img.shields.io/npm/v/minherits.svg?style=flat)](https://npmjs.org/package/minherits) [![Build Status](http://img.shields.io/travis/gummesson/minherits.svg?style=flat)](https://travis-ci.org/gummesson/minherits)
+[![NPM version][npm-img]][npm-url]
+[![License][license-img]][license-url]
+[![Build status][travis-img]][travis-url]
 
-A tiny, modern, bare bones inheritance utility for Node.js and the browser. It works with [Browserify](http://browserify.org/) and supports Internet Explorer 9+.
+A tiny, modern, bare bones inheritance utility for Node.js and the browser. It
+works with [Browserify](http://browserify.org/) and supports Internet Explorer
+9+.
 
 ## Installation
 
@@ -51,3 +55,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+[npm-img]: https://img.shields.io/npm/v/minherits.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/minherits
+[license-img]: http://img.shields.io/npm/l/minherits.svg?style=flat-square
+[license-url]: LICENSE
+[travis-img]: https://img.shields.io/travis/gummesson/minherits.svg?style=flat-square
+[travis-url]: https://travis-ci.org/gummesson/minherits
