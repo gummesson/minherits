@@ -1,6 +1,6 @@
 {
   "name": "minherits",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A tiny, modern, bare bones inheritance utility for Node.js and the browser.",
   "main": "index.js",
   "repository": {
