@@ -15,27 +15,17 @@ npm install minherits --save
 ## Usage
 
 ~~~ js
-var inherits = require('minherits');
+var inherits = require('minherits')
 
 function Foo() {
   // ...
 }
 
 function Bar() {
-  Foo.call(this);
+  Foo.call(this)
 }
 
-inherits(Bar, Foo);
-~~~
-
-## Tests
-
-[PhantomJS](http://phantomjs.org/) is required for the browser tests.
-
-~~~ text
-npm install
-npm test
-npm run browser
+inherits(Bar, Foo)
 ~~~
 
 ## License
