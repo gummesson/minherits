@@ -1,20 +1,22 @@
-/* Modules */
+/**
+ * Dependencies
+ */
 
-var test     = require('tape');
-var inherits = require('../');
-var Fixture  = require('./fixture');
+var test     = require('tape')
+var inherits = require('../')
+var Fixture  = require('./fixture')
 
-/* Tests */
+/**
+ * Tests
+ */
 
-// minherits(new, old)
-
-test('minherits()', function(assert) {
-  function Test() { Fixture.call(this); }
-  inherits(Test, Fixture);
-  var test = new Test();
-  test.person('stranger');
-  assert.ok(test instanceof Test, 'should be an instance of the new constructor');
-  assert.ok(test instanceof Fixture, 'should be an instance of the old constructor');
-  assert.equal(test.greet(), 'Hello, stranger!', 'should inherit the old constructor\'s methods');
-  assert.end();
-});
+test('minherits(a, b)', function(assert) {
+  function Test() { Fixture.call(this) }
+  inherits(Test, Fixture)
+  var test = new Test()
+  test.person('stranger')
+  assert.ok(test instanceof Test, 'should be an instance')
+  assert.ok(test instanceof Fixture, 'should be an instance')
+  assert.equal(test.greet(), 'Hello, stranger!')
+  assert.end()
+})

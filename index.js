@@ -1,11 +1,21 @@
-/* minherits */
+/**
+ * Make `a` inherit methods from `b`.
+ *
+ * @param  {function} a
+ * @param  {function} b
+ * @return {function}
+ *
+ * @api public
+ */
 
 function minherits(a, b) {
-  a.prototype = Object.create(b.prototype);
-  a.prototype.constructor = a;
-  return a;
+  a.prototype = Object.create(b.prototype)
+  a.prototype.constructor = a
+  return a
 }
 
-/* Exports */
+/**
+ * Exports
+ */
 
-module.exports = minherits;
+module.exports = minherits
